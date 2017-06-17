@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="Home"
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            ></item>
+        <item
+            android:title="Email"
+            android:id="@+id/email"
+            android:icon="@drawable/ic_mail_black_24dp"
+            ></item>
+        <item
+            android:title="Draft"
+            android:id="@+id/draft"
+            android:icon="@drawable/ic_drafts_black_24dp"
+            ></item>
+        <item
+            android:title="Achieved"
+            android:id="@+id/archieved"
+            android:icon="@drawable/ic_archive_black_24dp"
+            ></item>
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:title="Share"
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share_black_24dp"
+                ></item>
+            <item
+                android:title="Settings"
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                ></item>
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NavigationDrawerAndroid</string>
+    <string name="OPEN"></string>
+    <string name="CLOSE"></string>
+</resources>
